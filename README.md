@@ -19,5 +19,5 @@ Coding challange to retrieve data from api and display a filterable list
 #### Notes
 
 - decided to use 'useReducer' hook to simplify state management.
-- using a proxy hosted on heroku to circumvent cors
-- was not sure if data was '"' on purpose but one entry has the key "tag" mis-spelled as " tag". Normally, the data source would be tracked and cleaned up but in this case there is a "sanitation" method to clean data.
+- using a proxy hosted on heroku to circumvent cors (alternative would be to create a route and retrieve the json from a non browser env to avoid cors)
+- was not sure if data was 'corrupted' on purpose but one entry has the key "tag" mis-spelled as " tag". Normally, the data source would be tracked and cleaned up but in this case there is a "sanitation" method to clean data.
